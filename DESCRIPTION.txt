@@ -1,0 +1,3 @@
+24-hour watchface with a single hand for Pebble Time 2. One rotation per day: noon at the top, midnight at the bottom. The outer ring is white while the sun is up and black at night, from today's real sunrise and sunset for your location (phone GPS or a city you type in the settings). Hours with more than 50% chance of rain get a blue arc. Settings: location, 12-hour numerals, rain overlay.
+
+Based on SingleHanded #2 by fsargent (github.com/fsargent/pebble-slow-24h), adapted for the Pebble Time 2 screen.

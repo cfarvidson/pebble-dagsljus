@@ -1,0 +1,34 @@
+{
+  "name": "dagsljus",
+  "author": "Carl-Fredrik Arvidson",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Dagsljus",
+    "uuid": "6f1c2a8e-3b7d-4c5a-9e2f-8d1b0a7c6e54",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "capabilities": [
+      "location",
+      "configurable"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "SUNRISE",
+      "SUNSET",
+      "USE_12H",
+      "RAIN_HOURS",
+      "SHOW_RAIN"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
